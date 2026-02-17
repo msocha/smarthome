@@ -4,7 +4,6 @@ from typing import Any
 from esphome import automation, pins
 import esphome.codegen as cg
 from esphome.components import sensor
-#from esphome.components.esp32 import include_builtin_idf_component
 import esphome.config_validation as cv
 from esphome.const import CONF_ID, CONF_TRIGGER_ID, PLATFORM_ESP32, PLATFORM_ESP8266
 from esphome.core import CORE
